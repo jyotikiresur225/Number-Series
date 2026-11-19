@@ -1,0 +1,38 @@
+QUESTION:
+Write a Java program to find the sum of all digits in a given number.
+
+EXPLANATION:
+The sum of digits is obtained by adding all the individual digits present in a given number.
+
+We can extract each digit using the modulus (%) operator and remove the last digit using the division (/) operator.
+
+Steps:
+1. Read a number from the user.
+2. Initialize a variable sum to 0.
+3. Use the modulus (%) operator to extract the last digit.
+4. Add the extracted digit to the sum.
+5. Use the division (/) operator to remove the last digit.
+6. Repeat the process until the number becomes zero.
+7. Display the final sum.
+
+TEST CASES:
+
+Test Case 1:
+Input: 12345
+Expected Output: 15
+
+Test Case 2:
+Input: 987
+Expected Output: 24
+
+Test Case 3:
+Input: 456
+Expected Output: 15
+
+Test Case 4:
+Input: 1203
+Expected Output: 6
+
+Test Case 5:
+Input: 9
+Expected Output: 9
