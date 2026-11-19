@@ -1,0 +1,49 @@
+QUESTION:
+Write a Java program to print each digit in a given number.
+
+EXPLANATION:
+A digit is an individual number present in a given number. We can extract each digit using the modulus (%) and division (/) operators.
+
+1. Read a number from the user.
+2. Use the modulus (%) operator to extract the last digit.
+3. Print the extracted digit.
+4. Use the division (/) operator to remove the last digit.
+5. Repeat the process until the number becomes zero.
+
+TEST CASES:
+
+Test Case 1:
+Input: 12345
+Expected Output:
+5
+4
+3
+2
+1
+
+Test Case 2:
+Input: 987
+Expected Output:
+7
+8
+9
+
+Test Case 3:
+Input: 456
+Expected Output:
+6
+5
+4
+
+Test Case 4:
+Input: 1203
+Expected Output:
+3
+0
+2
+1
+
+Test Case 5:
+Input: 7
+Expected Output:
+7
