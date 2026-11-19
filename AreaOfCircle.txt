@@ -1,0 +1,41 @@
+QUESTION:
+Write a Java program to calculate the area of a circle.
+
+EXPLANATION:
+The area of a circle is the total space occupied by the circle.
+
+The formula to calculate the area of a circle is:
+
+Area = π × radius × radius
+
+Where:
+π (Pi) = 3.14
+Radius = Distance from the centre of the circle to its boundary.
+
+Steps:
+1. Read the radius of the circle from the user.
+2. Take the value of Pi as 3.14.
+3. Calculate the area using the formula: Area = 3.14 × radius × radius.
+4. Display the calculated area.
+
+TEST CASES:
+
+Test Case 1:
+Input: radius = 5
+Expected Output: Area = 78.5
+
+Test Case 2:
+Input: radius = 7
+Expected Output: Area = 153.86
+
+Test Case 3:
+Input: radius = 10
+Expected Output: Area = 314.0
+
+Test Case 4:
+Input: radius = 2
+Expected Output: Area = 12.56
+
+Test Case 5:
+Input: radius = 1
+Expected Output: Area = 3.14
