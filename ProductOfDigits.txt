@@ -1,0 +1,38 @@
+QUESTION:
+Write a Java program to find the product of all digits in a given number.
+
+EXPLANATION:
+The product of digits is obtained by multiplying all the individual digits present in a given number.
+
+We can extract each digit using the modulus (%) operator and remove the last digit using the division (/) operator.
+
+Steps:
+1. Read a number from the user.
+2. Initialize a variable product to 1.
+3. Use the modulus (%) operator to extract the last digit.
+4. Multiply the extracted digit with the product.
+5. Use the division (/) operator to remove the last digit.
+6. Repeat the process until the number becomes zero.
+7. Display the final product.
+
+TEST CASES:
+
+Test Case 1:
+Input: 1234
+Expected Output: 24
+
+Test Case 2:
+Input: 567
+Expected Output: 210
+
+Test Case 3:
+Input: 123
+Expected Output: 6
+
+Test Case 4:
+Input: 405
+Expected Output: 0
+
+Test Case 5:
+Input: 9
+Expected Output: 9
