@@ -1,0 +1,30 @@
+# Question: Check Whether a Number is a Perfect Number or Not
+
+**Explanation:**
+
+A perfect number is a positive number that is equal to the sum of its proper divisors (excluding the number itself).
+
+To check whether a number is perfect:
+
+- Find all the factors of the given number, excluding the number itself.
+- Add all those factors.
+- Compare the sum with the original number.
+- If both are equal, it is a Perfect Number. Otherwise, it is not a Perfect Number.
+
+**Example:**
+
+Number = 6
+
+Factors of 6 (excluding itself) = 1, 2, 3
+
+Sum = 1 + 2 + 3 = 6
+
+Since the sum is equal to the original number, 6 is a Perfect Number.
+
+**Test Cases:**
+
+1. Number = 6 → Output = Perfect Number
+2. Number = 28 → Output = Perfect Number
+3. Number = 12 → Output = Not a Perfect Number
+4. Number = 15 → Output = Not a Perfect Number
+5. Number = 496 → Output = Perfect Number
