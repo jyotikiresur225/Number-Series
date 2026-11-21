@@ -1,0 +1,36 @@
+# Question: Check Whether a Number is an Armstrong Number or Not
+
+**Explanation:**
+
+An Armstrong number is a number that is equal to the sum of its digits, where each digit is raised to the power of the total number of digits.
+
+To check whether a number is an Armstrong number:
+
+- Count the total number of digits.
+- Extract each digit from the given number.
+- Raise each digit to the power of the total number of digits.
+- Add all the calculated values.
+- Compare the sum with the original number.
+- If both are equal, it is an Armstrong Number. Otherwise, it is not an Armstrong Number.
+
+**Example:**
+
+Number = 153
+
+Total number of digits = 3
+
+Sum = 1³ + 5³ + 3³
+
+Sum = 1 + 125 + 27
+
+Sum = 153
+
+Since the sum is equal to the original number, 153 is an Armstrong Number.
+
+**Test Cases:**
+
+1. Number = 153 → Output = Armstrong Number
+2. Number = 370 → Output = Armstrong Number
+3. Number = 371 → Output = Armstrong Number
+4. Number = 123 → Output = Not an Armstrong Number
+5. Number = 9474 → Output = Armstrong Number
