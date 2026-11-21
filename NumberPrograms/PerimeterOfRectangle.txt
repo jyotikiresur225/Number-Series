@@ -1,0 +1,33 @@
+# Question: Find the Perimeter of a Rectangle
+
+**Explanation:**
+
+The perimeter of a rectangle is the total distance around its boundary.
+
+It is calculated by adding the lengths of all four sides of the rectangle.
+
+**Formula:**
+
+Perimeter = 2 × (Length + Breadth)
+
+- Length represents the longer side of the rectangle.
+- Breadth represents the shorter side of the rectangle.
+- Add the length and breadth, then multiply the result by 2 to find the perimeter.
+
+**Example:**
+
+Length = 5
+
+Breadth = 3
+
+Perimeter = 2 × (5 + 3)
+
+Perimeter = 2 × 8 = 16 units.
+
+**Test Cases:**
+
+1. Length = 5, Breadth = 3 → Output = 16
+2. Length = 10, Breadth = 5 → Output = 30
+3. Length = 7, Breadth = 4 → Output = 22
+4. Length = 12, Breadth = 6 → Output = 36
+5. Length = 8, Breadth = 8 → Output = 32
