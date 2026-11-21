@@ -1,0 +1,31 @@
+# Question: Find the Factorial of a Number
+
+**Explanation:**
+
+The factorial of a number is the product of all positive integers from 1 up to that number.
+
+It is represented by the symbol `!`.
+
+**Formula:**
+
+n! = n × (n-1) × (n-2) × ... × 1
+
+- Multiply all positive integers from the given number down to 1.
+- The factorial of 0 is always 1.
+- The factorial of 1 is also 1.
+
+**Example:**
+
+Number = 5
+
+Factorial = 5 × 4 × 3 × 2 × 1
+
+Factorial = 120
+
+**Test Cases:**
+
+1. Number = 5 → Output = 120
+2. Number = 4 → Output = 24
+3. Number = 6 → Output = 720
+4. Number = 3 → Output = 6
+5. Number = 0 → Output = 1
