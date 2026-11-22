@@ -1,0 +1,31 @@
+# Question: Find the Area of a Triangle
+
+**Explanation:**
+
+The area of a triangle is calculated by multiplying its base by its height and dividing the result by 2.
+
+**Formula:**
+
+Area = (Base × Height) / 2
+
+- Base represents the bottom side of the triangle.
+- Height represents the perpendicular distance from the base to the opposite vertex.
+- Multiply the base and height, then divide the result by 2.
+
+**Example:**
+
+Base = 10
+
+Height = 6
+
+Area = (10 × 6) / 2
+
+Area = 60 / 2 = 30 square units.
+
+**Test Cases:**
+
+1. Base = 10, Height = 6 → Output = 30
+2. Base = 8, Height = 5 → Output = 20
+3. Base = 12, Height = 4 → Output = 24
+4. Base = 7, Height = 6 → Output = 21
+5. Base = 9, Height = 8 → Output = 36
