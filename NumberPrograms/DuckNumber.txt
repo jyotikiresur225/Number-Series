@@ -1,0 +1,45 @@
+Question: Check Whether a Number is a Duck Number
+
+Explanation:
+
+A Duck Number is a positive number that contains at least one zero (0) in it.
+
+The zero should not be present at the beginning of the number. A number starting with zero is not considered a Duck Number.
+
+Logic:
+
+1. Check whether the number is positive.
+2. Extract each digit from the number.
+3. Check whether any digit is equal to zero.
+4. If at least one zero is found, it is a Duck Number.
+5. Otherwise, it is not a Duck Number.
+
+Example:
+
+Input: 1023
+
+The number 1023 contains the digit 0.
+
+Output: Duck Number
+
+Test Cases:
+
+1. Input: 1023
+   Output: Duck Number
+   Reason: The number contains zero.
+
+2. Input: 506
+   Output: Duck Number
+   Reason: The number contains zero.
+
+3. Input: 1234
+   Output: Not a Duck Number
+   Reason: The number does not contain zero.
+
+4. Input: 7089
+   Output: Duck Number
+   Reason: The number contains zero.
+
+5. Input: 456
+   Output: Not a Duck Number
+   Reason: The number does not contain zero.
