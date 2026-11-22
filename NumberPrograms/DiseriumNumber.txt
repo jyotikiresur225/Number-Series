@@ -1,0 +1,52 @@
+Question: Check Whether a Number is a Disarium Number
+
+Explanation:
+
+A Disarium Number is a number in which the sum of its digits, each raised to the power of its respective position, is equal to the original number.
+
+The position of each digit is counted from left to right, starting from 1.
+
+Logic:
+
+1. Count the total number of digits.
+2. Extract each digit from the number.
+3. Raise each digit to the power of its position.
+4. Add all the calculated values.
+5. Compare the sum with the original number.
+6. If both are equal, it is a Disarium Number. Otherwise, it is not.
+
+Example:
+
+Input: 135
+
+Calculation:
+
+1¹ + 3² + 5³
+
+= 1 + 9 + 125
+
+= 135
+
+Output: Disarium Number
+
+Test Cases:
+
+1. Input: 135
+   Output: Disarium Number
+   Reason: 1¹ + 3² + 5³ = 135.
+
+2. Input: 89
+   Output: Disarium Number
+   Reason: 8¹ + 9² = 8 + 81 = 89.
+
+3. Input: 175
+   Output: Disarium Number
+   Reason: 1¹ + 7² + 5³ = 175.
+
+4. Input: 123
+   Output: Not a Disarium Number
+   Reason: 1¹ + 2² + 3³ = 32, which is not equal to 123.
+
+5. Input: 1
+   Output: Disarium Number
+   Reason: 1¹ = 1.
