@@ -1,0 +1,46 @@
+Question: Check Whether a Number is a Buzz Number
+
+Explanation:
+
+A Buzz Number is a number that satisfies either of the following conditions:
+
+1. The number is divisible by 7.
+2. The number ends with the digit 7.
+
+If either condition is true, the number is called a Buzz Number. Otherwise, it is not a Buzz Number.
+
+Logic:
+
+- Check whether the number is divisible by 7 using the modulus operator (%).
+- Check whether the last digit is 7 using number % 10.
+- If either condition is true, it is a Buzz Number.
+
+Example:
+
+Input: 27
+
+27 is not divisible by 7, but it ends with the digit 7.
+
+Output: Buzz Number
+
+Test Cases:
+
+1. Input: 14
+   Output: Buzz Number
+   Reason: 14 is divisible by 7.
+
+2. Input: 17
+   Output: Buzz Number
+   Reason: The number ends with 7.
+
+3. Input: 21
+   Output: Buzz Number
+   Reason: 21 is divisible by 7.
+
+4. Input: 25
+   Output: Not a Buzz Number
+   Reason: It is not divisible by 7 and does not end with 7.
+
+5. Input: 77
+   Output: Buzz Number
+   Reason: It is divisible by 7 and ends with 7.
