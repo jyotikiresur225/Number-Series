@@ -1,6 +1,6 @@
-# Question: Check Whether a Number is an Automorphic Number or Not
+Question: Check Whether a Number is an Automorphic Number or Not
 
-**Explanation:**
+Explanation:
 
 An Automorphic Number is a number whose square ends with the same digits as the original number.
 
@@ -10,7 +10,7 @@ To check whether a number is an Automorphic Number:
 - Compare the last digits of the square with the original number.
 - If both match, it is an Automorphic Number. Otherwise, it is not an Automorphic Number.
 
-**Example:**
+Example:
 
 Number = 25
 
@@ -20,7 +20,7 @@ The square 625 ends with 25.
 
 Since the last digits of the square are equal to the original number, 25 is an Automorphic Number.
 
-**Test Cases:**
+Test Cases:
 
 1. Number = 5 → Output = Automorphic Number (5² = 25)
 2. Number = 6 → Output = Automorphic Number (6² = 36)

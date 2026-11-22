@@ -1,10 +1,10 @@
-# Question: Find the Area of a Rectangle
+ Question: Find the Area of a Rectangle
 
-**Explanation:**
+Explanation:
 
 The area of a rectangle is calculated by multiplying its length by its breadth (width).
 
-**Formula:**
+Formula:
 
 Area = Length × Breadth
 
@@ -12,7 +12,7 @@ Area = Length × Breadth
 - Breadth represents the other side of the rectangle.
 - Multiply both values to get the area in square units.
 
-**Example:**
+Example:
 
 Length = 5
 
@@ -20,7 +20,7 @@ Breadth = 3
 
 Area = 5 × 3 = 15 square units.
 
-**Test Cases:**
+Test Cases:
 
 1. Length = 5, Breadth = 3 → Output = 15
 2. Length = 10, Breadth = 5 → Output = 50

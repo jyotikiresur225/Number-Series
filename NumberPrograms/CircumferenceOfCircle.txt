@@ -1,12 +1,12 @@
-# Question: Find the Circumference of a Circle
+Question: Find the Circumference of a Circle
 
-**Explanation:**
+Explanation:
 
 The circumference of a circle is the total distance around its boundary.
 
 It is calculated by multiplying 2 by π (pi) and the radius of the circle.
 
-**Formula:**
+Formula:
 
 Circumference = 2 × π × Radius
 
@@ -14,7 +14,7 @@ Circumference = 2 × π × Radius
 - π (pi) is approximately 3.14.
 - Multiply 2, π, and the radius to find the circumference.
 
-**Example:**
+Example:
 
 Radius = 5
 
@@ -22,7 +22,7 @@ Circumference = 2 × 3.14 × 5
 
 Circumference = 31.4 units.
 
-**Test Cases:**
+Test Cases:
 
 1. Radius = 5 → Output = 31.4
 2. Radius = 7 → Output = 43.96
