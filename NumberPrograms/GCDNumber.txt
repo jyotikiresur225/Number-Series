@@ -1,0 +1,45 @@
+Question: Find the GCD of Two Numbers
+
+Explanation:
+
+GCD (Greatest Common Divisor) is the largest positive number that divides two given numbers without leaving a remainder.
+
+It is also known as HCF (Highest Common Factor).
+
+Logic:
+
+1. Read two numbers.
+2. Find the remainder when the first number is divided by the second number.
+3. Replace the first number with the second number.
+4. Replace the second number with the remainder.
+5. Repeat the process until the remainder becomes zero.
+6. When the remainder becomes zero, the first number is the GCD.
+
+Example:
+
+Input: 12, 18
+
+Calculation:
+
+18 % 12 = 6
+
+12 % 6 = 0
+
+Output: GCD = 6
+
+Test Cases:
+
+1. Input: 12, 18
+   Output: GCD = 6
+
+2. Input: 20, 30
+   Output: GCD = 10
+
+3. Input: 15, 25
+   Output: GCD = 5
+
+4. Input: 7, 13
+   Output: GCD = 1
+
+5. Input: 24, 36
+   Output: GCD = 12
