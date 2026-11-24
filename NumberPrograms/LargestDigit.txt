@@ -1,0 +1,47 @@
+Question: Find the Largest Digit in a Number
+
+Explanation:
+
+The largest digit in a number is the greatest individual digit present in that number.
+
+We can find the largest digit by extracting each digit and comparing it with the current largest digit.
+
+Logic:
+
+1. Read a number.
+2. Initialize the largest digit as 0.
+3. Extract the last digit using the modulus operator (% 10).
+4. Compare the extracted digit with the current largest digit.
+5. If the extracted digit is greater, update the largest digit.
+6. Remove the last digit using integer division (/ 10).
+7. Repeat the process until all digits are checked.
+8. Display the largest digit.
+
+Example:
+
+Input: 58329
+
+Calculation:
+
+Digits: 5, 8, 3, 2, 9
+
+The largest digit among them is 9.
+
+Output: Largest Digit = 9
+
+Test Cases:
+
+1. Input: 58329
+   Output: Largest Digit = 9
+
+2. Input: 12345
+   Output: Largest Digit = 5
+
+3. Input: 9876
+   Output: Largest Digit = 9
+
+4. Input: 4444
+   Output: Largest Digit = 4
+
+5. Input: 10203
+   Output: Largest Digit = 3
