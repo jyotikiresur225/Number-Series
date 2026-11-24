@@ -1,0 +1,50 @@
+Question: Check Whether a Number is a Neon Number
+
+Explanation:
+
+A Neon Number is a number in which the sum of the digits of its square is equal to the original number.
+
+Logic:
+
+1. Read a number.
+2. Calculate the square of the number.
+3. Extract each digit from the square.
+4. Add all the extracted digits.
+5. Compare the sum with the original number.
+6. If both are equal, it is a Neon Number. Otherwise, it is not.
+
+Example:
+
+Input: 9
+
+Calculation:
+
+Square of 9 = 9 × 9 = 81
+
+Sum of digits = 8 + 1 = 9
+
+Since the sum is equal to the original number, 9 is a Neon Number.
+
+Output: Neon Number
+
+Test Cases:
+
+1. Input: 9
+   Output: Neon Number
+   Reason: 9² = 81 and 8 + 1 = 9.
+
+2. Input: 1
+   Output: Neon Number
+   Reason: 1² = 1 and the digit sum is 1.
+
+3. Input: 0
+   Output: Neon Number
+   Reason: 0² = 0 and the digit sum is 0.
+
+4. Input: 10
+   Output: Not a Neon Number
+   Reason: 10² = 100 and 1 + 0 + 0 = 1.
+
+5. Input: 5
+   Output: Not a Neon Number
+   Reason: 5² = 25 and 2 + 5 = 7.
