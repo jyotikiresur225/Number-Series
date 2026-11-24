@@ -1,0 +1,48 @@
+Question: Check Whether a Number is a Palindrome Number
+
+Explanation:
+
+A Palindrome Number is a number that remains the same when its digits are reversed.
+
+In simple words, if the original number and its reverse are equal, it is called a Palindrome Number.
+
+Logic:
+
+1. Read a number.
+2. Store the original number in a temporary variable.
+3. Initialize the reverse number as 0.
+4. Extract the last digit using the modulus operator (% 10).
+5. Add the extracted digit to the reverse number.
+6. Remove the last digit using integer division (/ 10).
+7. Repeat the process until the number becomes 0.
+8. Compare the reverse number with the original number.
+9. If both are equal, it is a Palindrome Number. Otherwise, it is not.
+
+Example:
+
+Input: 121
+
+Calculation:
+
+Reverse of 121 = 121
+
+Since the original number and reverse number are equal,
+
+Output: Palindrome Number
+
+Test Cases:
+
+1. Input: 121
+   Output: Palindrome Number
+
+2. Input: 1331
+   Output: Palindrome Number
+
+3. Input: 12321
+   Output: Palindrome Number
+
+4. Input: 123
+   Output: Not a Palindrome Number
+
+5. Input: 456
+   Output: Not a Palindrome Number
