@@ -1,0 +1,50 @@
+Question: Check Whether a Number is a Happy Number
+
+Explanation:
+
+A Happy Number is a number that eventually becomes 1 when repeatedly replaced by the sum of the squares of its digits.
+
+If the process continues endlessly in a cycle without reaching 1, the number is called an Unhappy Number or Sad Number.
+
+Logic:
+
+1. Read a positive number.
+2. Extract each digit from the number.
+3. Calculate the square of each digit.
+4. Add the squares of all the digits.
+5. Replace the original number with this sum.
+6. Repeat the process until the number becomes 1 or enters a repeating cycle.
+7. If the number becomes 1, it is a Happy Number. Otherwise, it is not.
+
+Example:
+
+Input: 19
+
+Calculation:
+
+1² + 9² = 1 + 81 = 82
+
+8² + 2² = 64 + 4 = 68
+
+6² + 8² = 36 + 64 = 100
+
+1² + 0² + 0² = 1
+
+Output: Happy Number
+
+Test Cases:
+
+1. Input: 19
+   Output: Happy Number
+
+2. Input: 7
+   Output: Happy Number
+
+3. Input: 10
+   Output: Happy Number
+
+4. Input: 20
+   Output: Not a Happy Number
+
+5. Input: 4
+   Output: Not a Happy Number
