@@ -1,0 +1,43 @@
+Question: Find the LCM of Two Numbers
+
+Explanation:
+
+LCM (Least Common Multiple) is the smallest positive number that is exactly divisible by two given numbers without leaving a remainder.
+
+Logic:
+
+1. Read two numbers.
+2. Find the greater number between them.
+3. Start checking multiples from the greater number.
+4. Check whether the current number is divisible by both given numbers.
+5. If it is divisible by both numbers, it is the LCM.
+6. Otherwise, increment the number and repeat the process until a common multiple is found.
+
+Example:
+
+Input: 12, 18
+
+Multiples of 12: 12, 24, 36, 48...
+
+Multiples of 18: 18, 36, 54...
+
+The smallest common multiple is 36.
+
+Output: LCM = 36
+
+Test Cases:
+
+1. Input: 12, 18
+   Output: LCM = 36
+
+2. Input: 4, 6
+   Output: LCM = 12
+
+3. Input: 5, 10
+   Output: LCM = 10
+
+4. Input: 7, 13
+   Output: LCM = 91
+
+5. Input: 8, 12
+   Output: LCM = 24
