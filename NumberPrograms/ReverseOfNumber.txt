@@ -1,0 +1,50 @@
+Reverse of Number:
+
+ Question:
+Write a program to find the reverse of a given number.
+
+Explanation:
+The reverse of a number is obtained by arranging its digits in the opposite order.
+
+For example, the reverse of 1234 is 4321.
+
+ Logic:
+1. Take the given number.
+2. Initialize a variable `reverse` to 0.
+3. Extract the last digit using the remainder operator (`% 10`).
+4. Add the extracted digit to the reverse after multiplying the reverse by 10.
+5. Remove the last digit from the original number using integer division (`/ 10`).
+6. Repeat until the original number becomes 0.
+7. The final value of `reverse` is the reversed number.
+
+ Formula:
+reverse = reverse × 10 + digit
+
+number = number / 10
+
+ Example
+Number: 1234
+
+- Extract 4 → reverse = 4
+- Extract 3 → reverse = 43
+- Extract 2 → reverse = 432
+- Extract 1 → reverse = 4321
+
+Therefore, the reverse of 1234 is 4321.
+
+Test Cases
+
+1. Input: 1234  
+   Output: 4321
+
+2. Input: 567  
+   Output: 765
+
+3. Input: 100  
+   Output: 1
+
+4. Input: 908  
+   Output: 809
+
+5. Input: 7  
+   Output: 7
