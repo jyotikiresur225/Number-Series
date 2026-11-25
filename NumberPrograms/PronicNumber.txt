@@ -1,0 +1,48 @@
+# Pronic Number
+
+## Question
+Write a program to check whether a given number is a Pronic Number.
+
+## Explanation
+A Pronic Number is a number that can be expressed as the product of two consecutive integers.
+
+In other words, a number is Pronic if it is equal to `n × (n + 1)` for some non-negative integer `n`.
+
+## Logic
+1. Take the given number.
+2. Find two consecutive integers.
+3. Multiply them.
+4. If their product is equal to the given number, it is a Pronic Number.
+5. Otherwise, it is not a Pronic Number.
+
+## Formula
+Pronic Number = n × (n + 1)
+
+## Example
+**Number: 12**
+
+3 × 4 = 12
+
+Since 3 and 4 are consecutive integers and their product is 12, **12 is a Pronic Number**.
+
+## Test Cases
+
+1. Input: 6  
+   Output: Pronic Number  
+   Explanation: 2 × 3 = 6
+
+2. Input: 12  
+   Output: Pronic Number  
+   Explanation: 3 × 4 = 12
+
+3. Input: 20  
+   Output: Pronic Number  
+   Explanation: 4 × 5 = 20
+
+4. Input: 15  
+   Output: Not a Pronic Number  
+   Explanation: No two consecutive integers have a product of 15.
+
+5. Input: 0  
+   Output: Pronic Number  
+   Explanation: 0 × 1 = 0
