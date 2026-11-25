@@ -1,0 +1,54 @@
+SUNNY NUMBER
+
+Question
+
+Write a program to check whether a given number is a Sunny Number.
+
+Explanation
+
+A Sunny Number is a number whose next consecutive number is a perfect square.
+
+In other words, if we add 1 to the given number and the result is a perfect square, then the given number is called a Sunny Number.
+
+For example, 24 is a Sunny Number because adding 1 gives 25, which is the square of 5.
+
+Logic
+
+1. Take the given number as input.
+2. Add 1 to the given number.
+3. Find the square root of the resulting number.
+4. Convert the square root into an integer.
+5. Multiply the integer square root by itself.
+6. Compare the square of the integer with the resulting number.
+7. If both are equal, the given number is a Sunny Number. Otherwise, it is not.
+
+Example
+
+Number: 24
+
+Add 1 to the number.
+
+24 + 1 = 25
+
+Square root of 25 = 5
+
+5 multiplied by 5 = 25
+
+Since 25 is a perfect square, 24 is a Sunny Number.
+
+Test Cases
+
+1. Input: 24
+   Output: Sunny Number
+
+2. Input: 8
+   Output: Sunny Number
+
+3. Input: 3
+   Output: Sunny Number
+
+4. Input: 10
+   Output: Not a Sunny Number
+
+5. Input: 15
+   Output: Not a Sunny Number
