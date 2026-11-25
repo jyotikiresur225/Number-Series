@@ -1,0 +1,22 @@
+STRONG NUMBER
+
+Question
+
+Write a program to check whether a given number is a Strong Number.
+
+Explanation
+
+A Strong Number is a number in which the sum of the factorials of its individual digits is equal to the original number.
+
+The factorial of a number is the product of all positive integers from 1 up to that number. The factorial of 0 is 1.
+
+For example, 145 is a Strong Number because the sum of the factorials of its digits is equal to 145.
+
+Logic
+
+1. Take the given number as input.
+2. Store the original number in a separate variable.
+3. Initialize a variable named sum to 0.
+4. Extract the last digit of the number.
+5. Calculate the factorial of the extracted digit.
+6. Add the factorial to sum.
