@@ -1,0 +1,56 @@
+TECH NUMBER
+
+Question
+
+Write a program to check whether a given number is a Tech Number.
+
+Explanation
+
+A Tech Number is an even digit number that can be divided into two equal parts. When both parts are added and the sum is squared, the result should be equal to the original number.
+
+For example, 2025 is a Tech Number because it has four digits. Dividing it into two equal parts gives 20 and 25. Adding them gives 45. Squaring 45 gives 2025.
+
+Logic
+
+1. Take the given number as input.
+2. Count the total number of digits.
+3. Check whether the number of digits is even.
+4. Find the divisor using half of the total number of digits.
+5. Divide the number into two equal parts using the divisor.
+6. Add both parts.
+7. Calculate the square of their sum.
+8. Compare the result with the original number.
+9. If both are equal, the number is a Tech Number. Otherwise, it is not.
+
+Example
+
+Number: 2025
+
+The number contains four digits.
+
+First part = 20
+
+Second part = 25
+
+Sum = 20 + 25 = 45
+
+Square of the sum = 45 multiplied by 45 = 2025
+
+Since the result is equal to the original number, 2025 is a Tech Number.
+
+Test Cases
+
+1. Input: 2025
+   Output: Tech Number
+
+2. Input: 3025
+   Output: Tech Number
+
+3. Input: 9801
+   Output: Tech Number
+
+4. Input: 1234
+   Output: Not a Tech Number
+
+5. Input: 144
+   Output: Not a Tech Number
