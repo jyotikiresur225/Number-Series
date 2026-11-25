@@ -1,0 +1,42 @@
+SPECIAL TWO DIGIT NUMBER
+
+Question
+
+Write a program to check whether a given two digit number is a Special Two Digit Number.
+
+Explanation
+
+A Special Two Digit Number is a number in which the sum of its digits and the product of its digits, when added together, is equal to the original number.
+
+For example, 59 is a Special Two Digit Number because the sum of its digits is 14 and the product of its digits is 45. Adding them gives 59.
+
+Logic
+
+1. Take a two digit number as input.
+2. Extract the tens digit by dividing the number by 10.
+3. Extract the units digit by finding the remainder when the number is divided by 10.
+4. Calculate the sum of both digits.
+5. Calculate the product of both digits.
+6. Add the sum and product.
+7. Compare the result with the original number.
+8. If both are equal, the number is a Special Two Digit Number. Otherwise, it is not.
+
+Formula
+
+Sum = Tens digit + Units digit
+
+Product = Tens digit multiplied by Units digit
+
+Final Result = Sum + Product
+
+Example
+
+Number: 59
+
+Tens digit = 5
+
+Units digit = 9
+
+Sum = 5 + 9 = 14
+
+Product =
