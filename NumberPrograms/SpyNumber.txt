@@ -1,0 +1,51 @@
+SPY NUMBER
+
+Question
+
+Write a program to check whether a given number is a Spy Number.
+
+Explanation
+
+A Spy Number is a number in which the sum of its digits is equal to the product of its digits.
+
+For example, 1124 is a Spy Number because the sum of its digits is 8 and the product of its digits is also 8.
+
+Logic
+
+1. Take the given number as input.
+2. Initialize two variables named sum and product.
+3. Set sum to 0 and product to 1.
+4. Extract the last digit of the number.
+5. Add the extracted digit to sum.
+6. Multiply the extracted digit with product.
+7. Remove the last digit from the original number.
+8. Repeat the process until all digits are extracted.
+9. Compare the sum and product.
+10. If both are equal, the number is a Spy Number. Otherwise, it is not.
+
+Example
+
+Number: 1124
+
+Sum of digits = 1 + 1 + 2 + 4 = 8
+
+Product of digits = 1 multiplied by 1 multiplied by 2 multiplied by 4 = 8
+
+Since the sum and product are equal, 1124 is a Spy Number.
+
+Test Cases
+
+1. Input: 1124
+   Output: Spy Number
+
+2. Input: 123
+   Output: Not a Spy Number
+
+3. Input: 22
+   Output: Spy Number
+
+4. Input: 1412
+   Output: Spy Number
+
+5. Input: 1234
+   Output: Not a Spy Number
