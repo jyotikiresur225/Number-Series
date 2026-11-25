@@ -1,0 +1,54 @@
+Question: Check Whether a Number is a Prime Palindrome Number
+
+Explanation:
+
+A Prime Palindrome Number is a number that satisfies both of the following conditions:
+
+1. It is a Prime Number, which means it has exactly two factors: 1 and itself.
+2. It is a Palindrome Number, which means it remains the same when its digits are reversed.
+
+If a number satisfies both conditions, it is called a Prime Palindrome Number.
+
+Logic:
+
+1. Read a number.
+2. Check whether the number is a Prime Number.
+3. Reverse the digits of the number.
+4. Compare the reversed number with the original number.
+5. If the number is prime and the original number is equal to its reverse, it is a Prime Palindrome Number.
+6. Otherwise, it is not a Prime Palindrome Number.
+
+Example:
+
+Input: 131
+
+Prime Check:
+
+131 has exactly two factors: 1 and 131.
+
+Palindrome Check:
+
+Reverse of 131 = 131.
+
+Since the number is both prime and palindrome,
+
+Output: Prime Palindrome Number
+
+Test Cases:
+
+1. Input: 131
+   Output: Prime Palindrome Number
+
+2. Input: 2
+   Output: Prime Palindrome Number
+
+3. Input: 11
+   Output: Prime Palindrome Number
+
+4. Input: 121
+   Output: Not a Prime Palindrome Number
+   Reason: It is a palindrome but not a prime number.
+
+5. Input: 13
+   Output: Not a Prime Palindrome Number
+   Reason: It is prime but not a palindrome.
